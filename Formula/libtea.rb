@@ -3,28 +3,28 @@
 class Libtea < Formula
   desc "CLI for the CycloneDX Transparency Exchange API (TEA)"
   homepage "https://github.com/Mehrn0ush/libtea-rs"
-  version "0.2.2"
+  version "0.2.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Mehrn0ush/libtea-rs/releases/download/v0.2.2/libtea-0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "2917ce4e2f0f0069fcf86fa5dd40c0cc9864eedd6d295af862f834a954ea2ab7"
+      url "https://github.com/Mehrn0ush/libtea-rs/releases/download/v0.2.3/libtea-0.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "7f68167d0f89db5b50fa1bcb8e498807fbcdac3ad5977c41202b886a8e7316f9"
     end
     on_intel do
-      url "https://github.com/Mehrn0ush/libtea-rs/releases/download/v0.2.2/libtea-0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "281a6d1afed4f9edc97375b3c6b89a9c1424db52e79ba8359ca953ed476c6d08"
+      url "https://github.com/Mehrn0ush/libtea-rs/releases/download/v0.2.3/libtea-0.2.3-x86_64-apple-darwin.tar.gz"
+      sha256 "7e9215addca71d917d0e9e0c2044df516c2f54437abdafe3e57f3ba60f629964"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Mehrn0ush/libtea-rs/releases/download/v0.2.2/libtea-0.2.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e0e55c514b9393ea8746deafd89986cb48fc05f2ecf13e7d5d0104961d295d33"
+      url "https://github.com/Mehrn0ush/libtea-rs/releases/download/v0.2.3/libtea-0.2.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "fa686ad7a8ef875f306b4e0fb3982e964d66d39b3dd3beb7c526eae8125b295f"
     end
     on_intel do
-      url "https://github.com/Mehrn0ush/libtea-rs/releases/download/v0.2.2/libtea-0.2.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d24a0044fd71d0ef62f6b0c471ca911964be89c37a92f90da56a076ac3fee445"
+      url "https://github.com/Mehrn0ush/libtea-rs/releases/download/v0.2.3/libtea-0.2.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "11af22c17f8ed84c1f99caea63b72a667d5067805b5b3074937b3b822b7e872e"
     end
   end
 
